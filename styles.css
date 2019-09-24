@@ -67,10 +67,12 @@ a:hover {
 }
 .profile-image {
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   border-style: solid;
+  transition: 2s;
+  opacity: 0.5;
 }
 .profile-image:hover {
   opacity: 0.5;
@@ -244,7 +246,13 @@ padding-bottom: 200px;
 }
 .treehouse-ul{
   list-style-type: none;
+  text-align: center;
 }
+.other-exp{
+  text-align: center;
+}
+
+
 /*Contact tab */
 .contact-text{
   text-align: center;
